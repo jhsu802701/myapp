@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t railsapp .
+docker-compose build web
