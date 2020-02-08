@@ -1,5 +1,9 @@
 #!/bin/bash
 
-docker-compose stop web
-docker-compose build web
-docker-compose run --rm web bin/rails db:create
+echo '***************************'
+echo 'BEGIN: docker-compose build'
+echo '***************************'
+docker-compose build
+echo '*************************'
+echo 'END: docker-compose build'
+echo '*************************'
